@@ -9,7 +9,7 @@ import { fetchNotes } from '@/lib/api';
 import SearchBox from '@/components/SearchBox/SeachBox';
 import { useDebouncedCallback } from 'use-debounce';
 import Modal from '@/components/Modal/Modal';
-import NoteForm from '@/components/NoteFrom/NoteForm';
+import NoteForm from '@/components/NoteForm/NoteForm';
 import { Toaster } from 'react-hot-toast';
 
 function NotesClient() {
